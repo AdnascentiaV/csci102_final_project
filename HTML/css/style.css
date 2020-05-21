@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pinyon+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #454545;
+}
+
+header {
+    width: 100%;
+    box-shadow: 0 5px 10px black;
+    height: 100px;
+    background-color: #606060;
+}
+
+.logo {
+    width: 33%;
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+}
+
+.logo h1{
+    font-size: 5em;
+    color: gold;
+    font-family: 'Pinyon Script', cursive;
+    text-shadow: 0 10px 10px black;
+}
+
+.title {
+    padding-top: 25px;
+    width: 33%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.title a{
+    text-decoration: none;
+    text-shadow: 0 10px 10px black;
+    font-size: 2.5em;
+    transition: 0.5s;
+}
+
+.title a:hover {
+    color: gold;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+nav {
+    padding: 12px;
+    margin-top: 25px;
+    width: 33%;
+    box-shadow: 0 1px 6px black;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+nav a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: block;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.column {
+    float: left;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #454545;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+    text-align: center;
+    box-shadow: 0 1px 100px black;
+}
+
+footer p{
+    color: gray;
+}
+
+footer a{
+    color: #999999;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 1900px) {
+    nav {
+        background-color: red;
+    }
+
+    nav li {
+        display: block;
+    }
+}

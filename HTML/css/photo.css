@@ -1,0 +1,28 @@
+.photoblock {
+    display: block;
+    width: 50%;
+    padding: 10px;
+}
+
+.photoblock img {
+    width: 100%;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    float: left;
+    box-shadow: 0 1px 10px black;
+    transition: .5s;
+}
+
+.photoblock h1 {
+    text-align: center;
+}
+
+.photoblock p {
+    text-align: center;
+    color: grey;
+}
+
+.photoblock img:hover {
+    box-shadow: 0 1px 10px white;
+}
