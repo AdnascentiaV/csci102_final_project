@@ -33,8 +33,12 @@ h1 {
     color: grey;
 }
 
-.photoblock img:hover {
+.whitehover img:hover {
     box-shadow: 0 1px 10px white;
+}
+
+.blackhover img:hover {
+    box-shadow: 0 1px 10px red;
 }
 
 .focusoh {
