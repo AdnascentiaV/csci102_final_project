@@ -1,3 +1,55 @@
+.homepanel {
+    background-image: url(../images/IMG_8512.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.homepanel h1 {
+    text-align: center;
+    font-size: 10em;
+    padding-top: 200px;
+    stroke-width: 1px;
+    stroke: black;
+    text-shadow: 10px 10px 10px black;
+}
+
+.homepanel h2 {
+    text-align: center;
+    text-shadow: 2px 0px 5px black;
+}
+
+.homepanel img {
+    margin: auto;
+    display: block;
+}
+
+.left {
+    display: block;
+    width: 70%;
+    padding-right: 40px;
+}
+
+.left img {
+    width: 100%;
+}
+
 .discord {
-    
+    width: 30%;
+    height: 100vh;
+}
+
+.map {
+    width: 100%;
+    border-radius: 30px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .homepanel {
+        display: none;
+    }
 }

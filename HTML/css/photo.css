@@ -21,6 +21,7 @@ h1 {
 
 .photoblock h1 {
     text-align: center;
+    margin: 5px;
 }
 
 .photoblock h2 {
