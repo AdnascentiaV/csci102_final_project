@@ -1,11 +1,22 @@
 .homepanel {
-    background-image: url(../images/IMG_8512.jpg);
+    background-image: url(../videos/banner.mp4);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
     background-position: center;
+}
+
+.homepanel video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -9999;
 }
 
 .homepanel h1 {
@@ -27,6 +38,14 @@
     display: block;
 }
 
+.main {
+    background-color: #454545;
+}
+
+.bkg {
+    background-color: #454545;
+}
+
 .left {
     display: block;
     width: 70%;
@@ -37,19 +56,57 @@
     width: 100%;
 }
 
-.discord {
+.right {
+    display: block;
     width: 30%;
-    height: 100vh;
+}
+
+.discord {
+    margin-top: 30px;
+    width: 100%;
+    height: 75vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.resume {
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    height: 1075px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
 }
 
 .map {
-    width: 100%;
+    display: block;
+    width: 80%;
+    margin: auto;
     border-radius: 30px;
     height: 500px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.row h1 {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
     .homepanel {
         display: none;
+    }
+    
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    .resume {
+        height: 700px;
+    }
+
+    .right {
+        padding-bottom: 30px;
     }
 }
