@@ -19,7 +19,10 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.102'
-
+    - name: Setup Node 10.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
     - name: Build with dotnet
       run: dotnet build --configuration Release
 
