@@ -123,6 +123,28 @@ img {
     clear: both;
 }
 
+.uparrw {
+    position: fixed;
+    display: block;
+    right: 50px;
+    bottom: 50px;
+
+}
+
+.uparrw a {
+    text-align: center;
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: #99999999;
+    color: #454545;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+
 footer {
     background-color: #454545;
     width: 100%;
