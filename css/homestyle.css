@@ -101,11 +101,10 @@
     padding-right: 10px;
 }
 
-.aboutme {
-
-}
-
-.aboutme p {
+.aboutme p{
+    text-align: center;
+    width: 100%;
+    margin: auto;
     margin-top: 10px;
     width: 50%;
 }
@@ -155,5 +154,9 @@
         width: 100%;
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .aboutme p {
+        width: 90%;
     }
 }
