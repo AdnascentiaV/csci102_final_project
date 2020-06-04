@@ -291,6 +291,15 @@ footer a:hover {
         width: 90%;
     }
 
+    .uparrw {
+        display: none;
+    }
+
+    .github {
+        right: 10px;
+        bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
