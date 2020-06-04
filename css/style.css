@@ -104,12 +104,14 @@ nav a:hover{
     color: gold;
 }
 
-img {
-    -webkit-user-select: none;  /* Chrome all / Safari all */
-    -moz-user-select: none;     /* Firefox all */
-    -ms-user-select: none;      /* IE 10+ */
-    -o-user-select: none;
-    user-select: none;
+nav img {
+    display: block;
+    padding: 0;
+    width: 60px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
 }
 
 .youtube {
@@ -132,6 +134,27 @@ img {
     clear: both;
 }
 
+.github {
+    position: fixed;
+    display: block;
+    right: 150px;
+    bottom: 50px;
+}
+
+.github img {
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 40px;
+    transition: 0.2s;
+}
+
+.github img:hover {
+    box-shadow: 0px 0px 20px gray;
+}
 .uparrw {
     position: fixed;
     display: block;
@@ -153,6 +176,63 @@ img {
     font-weight: 500;
 }
 
+form {
+    margin-top: 10px;
+    background-color: #606060;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+form input {
+    color: #454545;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+form input[type="text"], form input[type="email"] {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    color: #454545;
+}
+
+.overflow {
+    overflow-x: auto;
+}
+
+table {
+    min-width: 900px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+th,td,tr {
+    padding: 5px;
+}
+
+th {
+    border-bottom: 2px solid black;
+}
+
+.software td {
+    width: 16%;
+}
+.software img {
+    height: 150px;
+}
+
+.credit {
+    color: gray;
+}
+
+.credit a {
+    text-decoration: none;
+    color: lightgrey;
+}
 
 footer {
     background-color: #454545;
@@ -210,6 +290,7 @@ footer a:hover {
     main > p {
         width: 90%;
     }
+
 }
 
 @media only screen and (max-width: 500px) {
