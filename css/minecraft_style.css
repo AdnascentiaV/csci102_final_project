@@ -1,0 +1,161 @@
+@font-face {
+    font-family: minecraft;
+    src: url(../fonts/MinecraftRegular-Bmg3.otf);
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(../fonts/MinecraftBold-nMK1.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(..fonts/MinecraftItalic-R8Mo.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(../fonts/MinecraftBoldItalic-1y1e.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.server-status p {
+    font-family: minecraft;
+}
+
+.server-status {
+    text-align: left;
+    display: block;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/minecraft/dirt_bkg.jpg);
+    background-size: auto 100%;
+    width: 625px;
+    margin: auto;
+    height: 70px;
+    margin-bottom: 0px;
+    line-height: 100%;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-shadow: 10px 10px 10px #303030;
+}
+
+.online {
+    float: right;
+    height: 15px
+}
+
+.favicon {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.server-oo {
+    color: #fff;
+    float: left;
+    margin-bottom: 0px;
+    padding: 0;
+    width: 200px;
+}
+
+.playersnow {
+    text-align: right;
+    float: right;
+    color: gray;
+    margin-bottom: 0px;
+    padding: 0;
+    width: 200px;
+    padding-right: 10px;
+}
+
+.motd {
+    float: left;
+    color: gray;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    min-width: 400px;
+}
+
+.version {
+    width: 300px;
+    float: left;
+    color: grey;
+}
+
+.debug {
+    text-align: left;
+    display: block;
+    background-image: url(../images/minecraft/dirt_bkg.png);
+    width: 625px;
+    margin: auto;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 100px;
+    line-height: 10%;
+}
+
+.span {
+    padding: inherit;
+    margin: inherit;
+}
+
+.bold
+{
+    font-weight: normal;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.black {
+    color: black;
+}
+
+.darkblue {
+    color: darkblue;
+}
+
+.darkgreen {
+    color: darkgreen;
+}
+
+.darkaqua {
+    color: darkturquoise;
+}
+
+.darkred {
+    color: darkred;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .server-status {
+        width: 100%;
+    }
+
+    .motd {
+        display: none;
+    }
+
+    .server-oo {
+        width: 25%;
+        padding-right: 10px;
+    }
+
+    .playersnow {
+        width: 30%;
+    }
+
+    .version {
+        width: 50%;
+    }
+}

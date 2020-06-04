@@ -52,10 +52,6 @@
     padding-right: 40px;
 }
 
-.left img {
-    width: 100%;
-}
-
 .right {
     display: block;
     width: 30%;
@@ -101,12 +97,18 @@
     padding-right: 10px;
 }
 
-.aboutme p{
+.aboutme > p{
     text-align: center;
     width: 100%;
     margin: auto;
     margin-top: 10px;
     width: 50%;
+}
+
+.aboutme h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -156,7 +158,7 @@
         padding-right: 0px;
     }
 
-    .aboutme p {
+    .aboutme > p {
         width: 90%;
     }
 }
