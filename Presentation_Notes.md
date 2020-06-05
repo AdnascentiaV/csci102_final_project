@@ -7,7 +7,6 @@ Presentation Notes
     Video {mchome}
     About {}
     Tools {}
-
 - All presentation is controlled by CSS (not outdated HTML methods)
     Passes HTML validation
 - All HTML pages pass HTML validation (Links to an external site.)
