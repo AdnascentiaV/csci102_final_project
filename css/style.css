@@ -115,6 +115,7 @@ nav img {
 }
 
 .youtube {
+    border: 0;
     display: block;
     margin: auto;
     border-radius: 30px;
