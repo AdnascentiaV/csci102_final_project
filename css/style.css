@@ -231,7 +231,26 @@ th {
 
 .credit a {
     text-decoration: none;
-    color: lightgrey;
+    color: gray
+}
+
+.socialgroup {
+    width: 20%;
+    margin: auto;
+}
+
+.social {
+    width: 10%;
+    margin: auto 2px;
+}
+
+.social {
+    filter: contrast(70%);
+    transition: .5s;
+}
+
+.social:hover {
+    filter: contrast(90%);
 }
 
 footer {
@@ -298,6 +317,10 @@ footer a:hover {
     .github {
         right: 10px;
         bottom: 10px;
+    }
+
+    .socialgroup {
+        width: 50%;
     }
 
 }
